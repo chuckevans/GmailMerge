@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "App: dev",
+      "type": "shell",
+      "command": "npm run dev",
+      "problemMatcher": [],
+      "isBackground": true
+    },
+    {
+      "label": "Worker: stub",
+      "type": "shell",
+      "command": "npm run worker",
+      "problemMatcher": []
+    },
+    {
+      "label": "Typecheck",
+      "type": "shell",
+      "command": "npm run typecheck",
+      "group": "test"
+    },
+    {
+      "label": "Tests",
+      "type": "shell",
+      "command": "npm test",
+      "group": "test"
+    }
+  ]
+}
